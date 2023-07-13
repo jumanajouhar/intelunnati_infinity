@@ -19,6 +19,7 @@ This repository contains the following:
 - A detailed report documenting the approach, tests, final accuracies, and conclusions. The report was created using LaTeX.
 - A video demo showcasing the functionality of the project can be accessed from the following link:
 https://clipchamp.com/watch/JguVrTxgN29
+
   Alternatively, you can use this link:
 https://drive.google.com/file/d/1rLKnJIU6pdVjbH6LZHmDHQtsVg83FLI-/view?usp=drive_link
 - The ISOT Fake News dataset can be downloaded from this link:
