@@ -50,4 +50,4 @@ Parameter tuning and patching were done on the logistic regression model and it 
 
 The performance of the trained models was evaluated using various metrics such as accuracy, precision, recall, F1 score, AUC ROC score. Confusion matrices were also plotted to visualize the performance of the models.
 
-Please refer to the code documentation for a detailed explanation.
+Please refer to the code documentation for further explanation.
