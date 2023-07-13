@@ -1,5 +1,5 @@
 # Intel-Unnati Fake News Detection Using Python and Machine Learning
-This repository contains a Python-based solution for fake news detection using machine learning. This project was done by Team Infinity of Saintgits College of Engineering, consisting of Jumana Jouhar, Neharin Tijo, and Meenakshi Mony, as part of the Intel Unnati Industrial Training Programme.
+This repository contains a Python-based solution for Fake News Detection using Machine Learning. This project was done by Team Infinity of Saintgits College of Engineering, consisting of Jumana Jouhar, Neharin Tijo, and Meenakshi Mony, as part of the Intel Unnati Industrial Training Programme.
 
 ## Acknowledgements
 We would like to thank our institutional mentor, Ms. Anju Pratap, for her support and guidance. We would also like to thank the industrial mentors for taking time out of their busy schedules to provide us with training and for answering our queries. We are very grateful to the Intel Unnati Team for this opportunity. We would like to extend our appreciation to anyone who has supported or helped us in one way or another.
@@ -19,10 +19,13 @@ This repository contains the following:
 bash pip_env.sh
 ```
 - `model.pkl`: Serialized XGBoost model created as a result of training.
-- `report.pdf`: Detailed report documenting the approach, tests, final accuracies, and conclusions. The report was created using LaTeX.
-- A video demo showcasing the functionality of the project can be accessed from the following link: https://clipchamp.com/watch/JguVrTxgN29
-  Alternatively, you can use this link: https://drive.google.com/file/d/1rLKnJIU6pdVjbH6LZHmDHQtsVg83FLI-/view?usp=drive_link
-- The ISOT Fake News dataset can be downloaded from this link: https://onlineacademiccommunity.uvic.ca/isot/2022/11/27/fake-news-detection-datasets/
+- A detailed report documenting the approach, tests, final accuracies, and conclusions. The report was created using LaTeX.
+- A video demo showcasing the functionality of the project can be accessed from the following link:
+https://clipchamp.com/watch/JguVrTxgN29
+  Alternatively, you can use this link:
+https://drive.google.com/file/d/1rLKnJIU6pdVjbH6LZHmDHQtsVg83FLI-/view?usp=drive_link
+- The ISOT Fake News dataset can be downloaded from this link:
+https://onlineacademiccommunity.uvic.ca/isot/2022/11/27/fake-news-detection-datasets/
 
 ## Deliverables
 We have addressed the following:
