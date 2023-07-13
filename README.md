@@ -1,5 +1,4 @@
 # Intel-Unnati Fake News Detection Using Python and Machine Learning
-
 This repository contains a Python-based solution for detecting fake news articles using machine learning models. This project was done by Team Infinity of Saintgits College of Engineering, consisting of Jumana Jouhar, Neharin Tijo, and Meenakshi Mony, as part of the Intel Unnati Industrial Training Programme.
 
 ## Acknowledgements
@@ -10,11 +9,30 @@ We would like to thank our institutional mentor, Ms. Anju Pratap, for her suppor
 Fake news has become a significant concern in today's digital age. This project utilizes machine learning techniques to distinguish between real and fake news articles. The solution is built using Python and leverages popular machine learning libraries such as scikit-learn and pandas.
 
 ## Objective
-
 The objective of this project is to build a model that can accurately classify a piece of news as REAL or FAKE.
 
-## Deliverables
+## Contents
+This repository contains the following:
+- `code/`:
+   - `fakenews_detection.ipynb`: Jupyter Notebook containing the code for the project and its explanation. It trains various models, makes use of Intel optimization, serialization etc.
+   - `pip_env.sh`: Shell script for setting up the required environment.
+- `model.pkl`: Serialized XGBoost model created as a result of training.
+- `report.pdf`: Detailed report documenting the approach, tests, final accuracies, and conclusions. The report was created using LaTeX.
+- `demo_video.mp4`: A video showcasing the functionality of the project. It can be accessed from the following link: [Demo Video](https://clipchamp.com/watch/JguVrTxgN29). Alternatively, you can use this link: [Google Drive Demo Video](https://drive.google.com/file/d/1rLKnJIU6pdVjbH6LZHmDHQtsVg83FLI-/view?usp=drive_link).
+- `data/`: Directory for downloading the ISOT Fake News dataset. You can access the dataset from this link: [ISOT Fake News Dataset](https://onlineacademiccommunity.uvic.ca/isot/2022/11/27/fake-news-detection-datasets/).
 
+.
+```shell
+bash pip_env.sh
+```
+- A model.pkl file which was created as a result of serializing our selected model, XGBoost.
+- A report containing the approach, tests, final accuracies and conclusion. This report was done using LaTeX.
+- The demo video can be accessed from the following link: https://clipchamp.com/watch/JguVrTxgN29
+  Alternatively, you can use this link: https://drive.google.com/file/d/1rLKnJIU6pdVjbH6LZHmDHQtsVg83FLI-/view?usp=drive_link
+- The ISOT Fake News dataset can be downloaded from this link: https://onlineacademiccommunity.uvic.ca/isot/2022/11/27/fake-news-detection-datasets/
+
+## Deliverables
+We have addressed the following:
 - Data Collection: The ISOT Fake News Dataset was used. Exploratory Data Analysis was performed on the dataset.
 - Data Preparation: The data was cleaned and prepared for training.
 - Model Training: Various machine learning models were trained on the labeled news data.
@@ -23,48 +41,18 @@ The objective of this project is to build a model that can accurately classify a
 - Model Selection: The best-performing model was selected based on evaluation metrics.
 - Making Predictions: The best model was used to classify new articles as real or fake.
 
-## Getting Started
-
-To get started with this project, follow the steps below:
-
-1. Clone this repository to your local machine or download the source code as a ZIP file.
-2. In the DevCloud terminal, use the following command to clone the repository:
-
-```shell
-git clone https://github.com/jumanajouhar/Intel-Unnati-Fake-News-Detection-Using-Python-and-Machine-Learning.git
-```
-
-3. Download the ISOT Fake News Dataset from the provided link (https://onlineacademiccommunity.uvic.ca/isot/2022/11/27/fake-news-detection-datasets/) and extract the file.
-4. Create a directory named "data" and save the extracted dataset in it.
-
-```shell
-mkdir data/
-unzip News-_dataset.zip -d data/
-```
-
-5. Execute the `pip_env.sh` file to create the virtual environment named "fakenews" and a kernel named "fakenews" for your project.
-
-```shell
-bash pip_env.sh
-```
-
-6. Activate the "fakenews" kernel and run the `fakenews_detection.ipynb` Jupyter Notebook to start the project.
-
 ## Models
-
 Several machine learning models can be used in a fake news detection project, but the models we chose are:
-
 - Logistic Regression
 - Decision Tree
 - Random Forest
 - Gradient Boosting
 - Passive Aggressive Classifier
 - XG Boost
-
 Parameter tuning and patching were done on the logistic regression model and it showed that Intel optimization did in fact help to improve our code runtime.
 
 ## Evaluation
 
 The performance of the trained models was evaluated using various metrics such as accuracy, precision, recall, F1 score, AUC ROC score. Confusion matrices were also plotted to visualize the performance of the models.
 
-Please refer to the project code and documentation for a detailed explanation.
+Please refer to the code documentation for a detailed explanation.
