@@ -43,6 +43,7 @@ Several machine learning models can be used in a fake news detection project, bu
 - Gradient Boosting
 - Passive Aggressive Classifier
 - XG Boost
+
 Parameter tuning and patching were done on the logistic regression model and it showed that Intel optimization did in fact help to improve our code runtime.
 
 ## Evaluation
