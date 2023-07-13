@@ -2,7 +2,7 @@
 This repository contains a Python-based solution for Fake News Detection using Machine Learning. This project was done by Team Infinity of Saintgits College of Engineering, consisting of Jumana Jouhar, Neharin Tijo, and Meenakshi Mony, as part of the Intel Unnati Industrial Training Programme.
 
 ## Acknowledgements
-We would like to thank our institutional mentor, Ms. Anju Pratap, for her support and guidance. We would also like to thank the industrial mentors for taking time out of their busy schedules to provide us with training and for answering our queries. We are very grateful to the Intel Unnati Team for this opportunity. We would like to extend our appreciation to anyone who has supported or helped us in one way or another.
+We would like to thank our institutional mentor, Dr. Anju Pratap, for her support and guidance. We would also like to thank the industrial mentors for taking time out of their busy schedules to provide us with training and for answering our queries. We are very grateful to the Intel Unnati Team for this opportunity. We would like to extend our appreciation to anyone who has supported or helped us in one way or another.
 
 ## Introduction
 Fake news has become a significant concern in today's digital age. This project utilizes machine learning techniques to distinguish between real and fake news articles. The solution is built using Python and leverages popular machine learning libraries such as scikit-learn and pandas.
