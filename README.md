@@ -14,10 +14,7 @@ The objective of this project is to build a model that can accurately classify a
 This repository contains the following:
 - `code/`:
    - `fakenews_detection.ipynb`: Jupyter Notebook containing the code for the project and its explanation. It trains various models, makes use of Intel optimization, serialization etc.
-   - `pip_env.sh`: Shell script for setting up the required environment.
-     ```shell
-bash pip_env.sh
-```
+   - `pip_env.sh`: Shell script for setting up the required environment. Execute this before running the code.
 - `model.pkl`: Serialized XGBoost model created as a result of training.
 - A detailed report documenting the approach, tests, final accuracies, and conclusions. The report was created using LaTeX.
 - A video demo showcasing the functionality of the project can be accessed from the following link:
