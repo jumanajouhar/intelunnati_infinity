@@ -1,11 +1,10 @@
 # Intel-Unnati Fake News Detection Using Python and Machine Learning
-This repository contains a Python-based solution for detecting fake news articles using machine learning models. This project was done by Team Infinity of Saintgits College of Engineering, consisting of Jumana Jouhar, Neharin Tijo, and Meenakshi Mony, as part of the Intel Unnati Industrial Training Programme.
+This repository contains a Python-based solution for fake news detection using machine learning. This project was done by Team Infinity of Saintgits College of Engineering, consisting of Jumana Jouhar, Neharin Tijo, and Meenakshi Mony, as part of the Intel Unnati Industrial Training Programme.
 
 ## Acknowledgements
 We would like to thank our institutional mentor, Ms. Anju Pratap, for her support and guidance. We would also like to thank the industrial mentors for taking time out of their busy schedules to provide us with training and for answering our queries. We are very grateful to the Intel Unnati Team for this opportunity. We would like to extend our appreciation to anyone who has supported or helped us in one way or another.
 
 ## Introduction
-
 Fake news has become a significant concern in today's digital age. This project utilizes machine learning techniques to distinguish between real and fake news articles. The solution is built using Python and leverages popular machine learning libraries such as scikit-learn and pandas.
 
 ## Objective
@@ -16,18 +15,12 @@ This repository contains the following:
 - `code/`:
    - `fakenews_detection.ipynb`: Jupyter Notebook containing the code for the project and its explanation. It trains various models, makes use of Intel optimization, serialization etc.
    - `pip_env.sh`: Shell script for setting up the required environment.
-- `model.pkl`: Serialized XGBoost model created as a result of training.
-- `report.pdf`: Detailed report documenting the approach, tests, final accuracies, and conclusions. The report was created using LaTeX.
-- `demo_video.mp4`: A video showcasing the functionality of the project. It can be accessed from the following link: [Demo Video](https://clipchamp.com/watch/JguVrTxgN29). Alternatively, you can use this link: [Google Drive Demo Video](https://drive.google.com/file/d/1rLKnJIU6pdVjbH6LZHmDHQtsVg83FLI-/view?usp=drive_link).
-- `data/`: Directory for downloading the ISOT Fake News dataset. You can access the dataset from this link: [ISOT Fake News Dataset](https://onlineacademiccommunity.uvic.ca/isot/2022/11/27/fake-news-detection-datasets/).
-
-.
-```shell
+     ```shell
 bash pip_env.sh
 ```
-- A model.pkl file which was created as a result of serializing our selected model, XGBoost.
-- A report containing the approach, tests, final accuracies and conclusion. This report was done using LaTeX.
-- The demo video can be accessed from the following link: https://clipchamp.com/watch/JguVrTxgN29
+- `model.pkl`: Serialized XGBoost model created as a result of training.
+- `report.pdf`: Detailed report documenting the approach, tests, final accuracies, and conclusions. The report was created using LaTeX.
+- A video demo showcasing the functionality of the project can be accessed from the following link: https://clipchamp.com/watch/JguVrTxgN29
   Alternatively, you can use this link: https://drive.google.com/file/d/1rLKnJIU6pdVjbH6LZHmDHQtsVg83FLI-/view?usp=drive_link
 - The ISOT Fake News dataset can be downloaded from this link: https://onlineacademiccommunity.uvic.ca/isot/2022/11/27/fake-news-detection-datasets/
 
