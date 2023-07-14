@@ -19,11 +19,11 @@ This repository contains the following:
 - A detailed report documenting the approach, tests, final accuracies, and conclusions. The report was created using LaTeX.
 - A video demo showcasing the functionality of the project can be accessed from the following link:
 https://clipchamp.com/watch/JguVrTxgN29
-
-  Alternatively, you can use this link:
-https://drive.google.com/file/d/1rLKnJIU6pdVjbH6LZHmDHQtsVg83FLI-/view?usp=drive_link
 - The ISOT Fake News dataset can be downloaded from this link:
 https://onlineacademiccommunity.uvic.ca/isot/2022/11/27/fake-news-detection-datasets/
+
+Alternatively, the above can also be accessed in the following link:
+https://drive.google.com/drive/folders/14em1BKtJNRiEPdBPFaw73zXx3CUVDqh_?usp=drive_link
 
 ## Deliverables
 We have addressed the following:
